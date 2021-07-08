@@ -36,7 +36,7 @@ user_input = input(
 cpu_choice = random.choice(options)
 result = ""
 
-if (user_input != '1' or user_input != '0' or user_input != '2'):
+if (user_input != '1' and user_input != '0' and user_input != '2'):
     print("Invalid input. You lose!")
     exit(0)
 
