@@ -31,10 +31,7 @@ resources = {
 }
 
 machine_on = True
-
 money = 0
-
-# checks ingredients
 
 
 def check_qunatity(drink_name):
