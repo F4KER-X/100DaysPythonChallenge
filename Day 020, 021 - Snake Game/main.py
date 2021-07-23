@@ -11,6 +11,7 @@ screen.bgcolor("black")
 screen.title(titlestring="Snake Game")
 screen.tracer(0)
 
+
 snake = Snake()
 food = Food()
 scoreboard = ScoreBoard()
@@ -21,7 +22,6 @@ screen.onkey(key='Up', fun=snake.move_up)
 screen.onkey(key='Down', fun=snake.move_down)
 screen.onkey(key='Left', fun=snake.move_left)
 screen.onkey(key='Right', fun=snake.move_right)
-
 is_on = True
 
 
@@ -38,10 +38,12 @@ while is_on:
         scoreboard.increase_score()
 
 # game over if game goes over the screen boarder
-    if snake.snake_list[0].xcor() > 280 or snake.snake_list[0].xcor() < -280 or snake.snake_list[0].ycor() > 280 or \
+    if snake.snake_list[0].xcor() > 280 or snake.snake_list[0].xcor() < -280 \
+        or snake.snake_list[0].ycor() > 280 or \
             snake.snake_list[0].ycor() < -280:
         is_on = False
         scoreboard.game_over()
+
 
 # game over if the snake collide with the tail
     for s in snake.snake_list[1:]:
