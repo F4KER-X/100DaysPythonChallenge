@@ -41,14 +41,15 @@ while is_on:
     if snake.snake_list[0].xcor() > 280 or snake.snake_list[0].xcor() < -280 \
         or snake.snake_list[0].ycor() > 280 or \
             snake.snake_list[0].ycor() < -280:
-        is_on = False
-        scoreboard.game_over()
+
+        scoreboard.reset()
+        snake.reset()
 
 
 # game over if the snake collide with the tail
     for s in snake.snake_list[1:]:
         if snake.snake_list[0].distance(s) < 10:
-            is_on = False
-            scoreboard.game_over()
+            scoreboard.reset()
+            snake.reset()
 
 screen.exitonclick()

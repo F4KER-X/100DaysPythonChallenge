@@ -55,3 +55,9 @@ class Snake:
         new_snake.penup()
         new_snake.goto(position)
         self.snake_list.append(new_snake)
+
+    def reset(self):
+        for snake in self.snake_list:
+            snake.goto(1000, 1000)
+        self.snake_list.clear()
+        self.create_snake()
