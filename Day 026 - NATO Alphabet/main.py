@@ -1,6 +1,5 @@
 import pandas
-
-FILE_LOCATION = r"C:\Users\danny\Documents\GitHub\100DaysPythonChallenge\Day 026\nato_phonetic_alphabet.csv"
+FILE_LOCATION = "Day 025 - U.S. State Game\50_states.csv"
 data = pandas.read_csv(FILE_LOCATION)
 
 
