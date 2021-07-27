@@ -1,7 +1,9 @@
 import turtle
 import pandas
-IMAGE_LOCATION = r"C:\Users\danny\Documents\GitHub\100DaysPythonChallenge\Day 025 - U.S. State Game\blank_states_img.gif"
-FILE_LOCATION = r"C:\Users\danny\Documents\GitHub\100DaysPythonChallenge\Day 025 - U.S. State Game\50_states.csv"
+IMAGE_LOCATION = r"Day 025 - U.S. State Game\blank_states_img.gif"
+FILE_LOCATION = r"Day 025 - U.S. State Game\50_states.csv"
+
+
 # create the turtle screen
 screen = turtle.Screen()
 screen.title("U.S States Game")
@@ -40,4 +42,4 @@ state_dic = {
     "state": all_states
 }
 df = pandas.DataFrame(state_dic)
-df.to_csv("states_to_learn.csv")
+df.to_csv("Day 025 - U.S. State Game\states_to_learn.csv")
