@@ -1,16 +1,15 @@
 import turtle
 import pandas
-
+IMAGE_LOCATION = r"C:\Users\danny\Documents\GitHub\100DaysPythonChallenge\Day 025 - U.S. State Game\blank_states_img.gif"
+FILE_LOCATION = r"C:\Users\danny\Documents\GitHub\100DaysPythonChallenge\Day 025 - U.S. State Game\50_states.csv"
 # create the turtle screen
 screen = turtle.Screen()
 screen.title("U.S States Game")
-image = r"C:\Users\danny\Documents\GitHub\100DaysPythonChallenge\Day 025\blank_states_img.gif"
-screen.addshape(image)
-turtle.shape(image)
+screen.addshape(IMAGE_LOCATION)
+turtle.shape(IMAGE_LOCATION)
 
 # read the file
-data = pandas.read_csv(
-    r"C:\Users\danny\Documents\GitHub\100DaysPythonChallenge\Day 025\50_states.csv")
+data = pandas.read_csv(FILE_LOCATION)
 
 # while loop to keep the game running
 guessed_states = []
@@ -35,8 +34,8 @@ while len(guessed_states) < 50:
 # check the states that we guessed and remove them from the states list,
 #  then create a new file with what we have left
 # to make it easier, dict is better for reading
-for state in guessed_states:
-    all_states.remove(state)
+missing_states = [all_states.remove(state) for state in guessed_states
+                  ]
 state_dic = {
     "state": all_states
 }
