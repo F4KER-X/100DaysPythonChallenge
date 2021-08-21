@@ -1,0 +1,100 @@
+1 Once Upon a Time in Hollywood
+2 Bright Star
+3 The Dark Knight
+4 Fahrenheit 9/11
+5 Private Life
+6 Call Me By Your Name
+7 Gladiator
+8 You, the Living
+9 The Hurt Locker
+10 Etre et Avoir
+11 Eden
+12 The Selfish Giant
+13 Gomorrah
+14 The Wind that Shakes the Barley
+15 No Country for Old Men
+16 Burning
+17 Tropical Malady
+18 The Son’s Room
+19 Stories We Tell
+20 Fish Tank
+21 Requiem for a Dream
+22 Persepolis 
+23 Ocean’s Eleven
+24 Lost in Translation
+25 Ten 
+26 Philomena
+27 A Prophet
+28 Love & Friendship
+29 Waltz With Bashir
+30 Capernaum (2018)
+31 Anchorman: The Legend of Ron Burgundy
+32 Paddington 2
+33 Mr Turner
+34 Dogtooth
+35 Brokeback Mountain 
+36 Happy as Lazzaro
+37 The Incredibles
+38 We Need to Talk about Kevin
+39 Waiting for Happiness
+40 The Souvenir
+41 Ted
+42 Gangs of Wasseypur
+43 Wuthering Heights
+44 Leave No Trace
+45 Behind the Candelabra
+46 Russian Ark
+47 The Social Network
+48 Fire at Sea
+49 Amores Perros
+50 Crouching Tiger, Hidden Dragon
+51 Before Sunset
+52 24 Hour Party People
+53 The House of Mirth
+54 Margaret
+55 Volver
+56 13th (2016)
+57 Toni Erdmann
+58 The Wolf of Wall Street
+59 4 Months, 3 Weeks and 2 Days
+60 The Handmaiden
+61 Unrelated
+62 Meek’s Cutoff
+63 Once Upon a Time in Anatolia
+64 Dogville
+65 A Separation
+66 45 Years
+67 The Child (L’Enfant
+68 The Royal Tenenbaums
+69 Gravity
+70 Anomalisa
+71 Leviathan
+72 Nebraska
+73 The Tree of Life
+74 The Grand Budapest Hotel
+75 A One and a Two (Yi Yi
+76 Get Out
+77 Ida
+78 Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan
+79 Spirited Away
+80 The White Ribbon
+81 Roma
+82 Lincoln
+83 A Serious Man
+84 The Great Beauty
+85 The Act of Killing
+86 Shoplifters
+87 White Material
+88 Far From Heaven
+89 Son of Saul
+90 Mulholland Drive
+91 Team America: World Police
+92 Zama
+93 Moonlight
+94 Synecdoche, New York
+95 Hidden
+96 In the Mood for Love
+97 Under the Skin
+98 Boyhood
+99 12 Years a Slave
+100 There Will Be Blood
