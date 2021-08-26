@@ -31,10 +31,10 @@ driver.switch_to.window(fb)
 # enter FB info and login
 sleep(2)
 email = driver.find_element_by_xpath('//*[@id="email"]')
-email.send_keys("dannypython1@gmail.com")
+email.send_keys("")
 
 password = driver.find_element_by_xpath('//*[@id="pass"]')
-password.send_keys("642819375")
+password.send_keys("")
 fb_login = driver.find_element_by_xpath('//*[@id="loginbutton"]')
 fb_login.click()
 
